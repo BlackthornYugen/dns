@@ -36,6 +36,8 @@ kind: dns#resourceRecordSet
 name: jsteelkw.ca.
 rrdatas:
 - '"keybase-site-verification=RwHW5F4zY-FT_oEFtKOm7sf30Ea_tU4XDJpJidNn-Qk"'
+- '"v=spf1 include:spf.messagingengine.com include:_spf.google.com a:cent.jskw.dev
+  a:centos.jskw.dev ~all"'
 ttl: 300
 type: TXT
 ---

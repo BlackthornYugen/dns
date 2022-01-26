@@ -36,6 +36,8 @@ kind: dns#resourceRecordSet
 name: jsteel.ca.
 rrdatas:
 - '"keybase-site-verification=HnRDn7PcnR-v71GSDKnLQcc-_cOqn6QeMGQ3_Rh6lgQ"'
+- '"v=spf1 include:spf.messagingengine.com include:_spf.google.com a:cent.jskw.dev
+  a:centos.jskw.dev ~all"'
 ttl: 300
 type: TXT
 ---
