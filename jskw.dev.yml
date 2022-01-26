@@ -66,6 +66,27 @@ ttl: 300
 type: TXT
 ---
 kind: dns#resourceRecordSet
+name: fm1._domainkey.jskw.dev.
+rrdatas:
+- fm1.jskw.dev.dkim.fmhosted.com.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: fm2._domainkey.jskw.dev.
+rrdatas:
+- fm2.jskw.dev.dkim.fmhosted.com.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: fm3._domainkey.jskw.dev.
+rrdatas:
+- fm3.jskw.dev.dkim.fmhosted.com.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
 name: steelcomputers.com._report.jskw.dev.
 rrdatas:
 - '"v=DMARC1"'
