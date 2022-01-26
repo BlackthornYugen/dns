@@ -43,8 +43,9 @@ type: SOA
 kind: dns#resourceRecordSet
 name: jskw.dev.
 rrdatas:
-- '"v=spf1 include:_spf.google.com a:cent.jskw.dev a:centos.jskw.dev ~all"'
 - '"keybase-site-verification=Q3J06F0XYyYBHQq8rveNDSvrXHO6h7uHfDIzLbjDdpQ"'
+- '"v=spf1 include:spf.messagingengine.com include:_spf.google.com a:cent.jskw.dev
+  a:centos.jskw.dev ~all"'
 ttl: 300
 type: TXT
 ---
