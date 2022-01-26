@@ -1,0 +1,14 @@
+NAME                              TYPE   TTL    DATA
+jskw.ca.                          A      60     149.56.64.48
+jskw.ca.                          CAA    300    0 issue "letsencrypt.org",0 iodef "mailto:ca@jskw.dev"
+jskw.ca.                          MX     3600   10 in1-smtp.messagingengine.com.,20 in2-smtp.messagingengine.com.
+jskw.ca.                          NS     21600  ns-cloud-b1.googledomains.com.,ns-cloud-b2.googledomains.com.,ns-cloud-b3.googledomains.com.,ns-cloud-b4.googledomains.com.
+jskw.ca.                          SOA    21600  ns-cloud-b1.googledomains.com. cloud-dns-hostmaster.google.com. 62 21600 3600 259200 300
+jskw.ca.                          TXT    300    "v=spf1 include:_spf.google.com a:cent.jskw.dev a:centos.jskw.dev ~all","keybase-site-verification=HubZaQgFbj5MmDVwIlglOLVCeluocQZp_lj1sVlCrrk"
+*.jskw.ca.                        CNAME  300    jskw.ca.
+_dmarc.jskw.ca.                   TXT    300    "v=DMARC1; p=quarantine; rua=mailto:dmarc-reports@jskw.dev; adkim=r; aspf=s; pct=100; rf=afrf; sp=reject"
+default._domainkey.jskw.ca.       TXT    300    "v=DKIM1; k=rsa; s=email; " "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEF8dEAVX08Vv8E0rBPvwXLsERKC5pmP/Yn037iNyjsEFF6wKEVWmgxQEDtTA4WN4ZL6xNJGv/gBROcmV4TyhPwKimPwRzrNb4QmLfZEi8jLqMlb2+Gjw/WI1T1Uu2wNePWKr/Itpm17yUMo+qCuexD9IN/ur8x62RFlleBDCdbQIDAQAB"
+google._domainkey.jskw.ca.        TXT    3600   "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCb22JZIAJeJ1v0ooozteH7U8J+0HtjENKW9vpVpLtvg6siSowN4UInP78VRjm401xZ/m3wPOFcZj9W2Dkx/IGvnca2Ej76S4gVbeQHbmZWLOTDlKsCXTwnV1oIbyelo9/6MQ4+e+udhdFM7WOKZfYqpHrMRU8PXSY7CpyONPgKqwIDAQAB"
+default._domainkey.cent.jskw.ca.  TXT    300    "v=DKIM1; k=rsa; s=email; " "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/qkhgqwFHlskVyxmRjhNpcNr/Xuk0i4VfRCpdxelPPz8fEW2C6LKZ1cH4MaRUph9lrsV2c4hJdOAoASamKXfqf6mx293V8Isha2cvDyRJdtfosxjth1E59WTBehAtFBiGReA3xcSUj99CNqyMqY8TopRjYzlKV9VAj4pA15MWiQIDAQAB"
+home.jskw.ca.                     CNAME  300    727b06cc0809.sn.mynetname.net.
+noctifer.jskw.ca.                 A      300    198.55.126.41

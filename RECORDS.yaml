@@ -1,0 +1,99 @@
+---
+kind: dns#resourceRecordSet
+name: jskw.ca.
+rrdatas:
+- 149.56.64.48
+ttl: 60
+type: A
+---
+kind: dns#resourceRecordSet
+name: jskw.ca.
+rrdatas:
+- 0 issue "letsencrypt.org"
+- 0 iodef "mailto:ca@jskw.dev"
+ttl: 300
+type: CAA
+---
+kind: dns#resourceRecordSet
+name: jskw.ca.
+rrdatas:
+- 10 in1-smtp.messagingengine.com.
+- 20 in2-smtp.messagingengine.com.
+ttl: 3600
+type: MX
+---
+kind: dns#resourceRecordSet
+name: jskw.ca.
+rrdatas:
+- ns-cloud-b1.googledomains.com.
+- ns-cloud-b2.googledomains.com.
+- ns-cloud-b3.googledomains.com.
+- ns-cloud-b4.googledomains.com.
+ttl: 21600
+type: NS
+---
+kind: dns#resourceRecordSet
+name: jskw.ca.
+rrdatas:
+- ns-cloud-b1.googledomains.com. cloud-dns-hostmaster.google.com. 62 21600 3600 259200
+  300
+ttl: 21600
+type: SOA
+---
+kind: dns#resourceRecordSet
+name: jskw.ca.
+rrdatas:
+- '"v=spf1 include:_spf.google.com a:cent.jskw.dev a:centos.jskw.dev ~all"'
+- '"keybase-site-verification=HubZaQgFbj5MmDVwIlglOLVCeluocQZp_lj1sVlCrrk"'
+ttl: 300
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: '*.jskw.ca.'
+rrdatas:
+- jskw.ca.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: _dmarc.jskw.ca.
+rrdatas:
+- '"v=DMARC1; p=quarantine; rua=mailto:dmarc-reports@jskw.dev; adkim=r; aspf=s; pct=100;
+  rf=afrf; sp=reject"'
+ttl: 300
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: default._domainkey.jskw.ca.
+rrdatas:
+- '"v=DKIM1; k=rsa; s=email; " "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEF8dEAVX08Vv8E0rBPvwXLsERKC5pmP/Yn037iNyjsEFF6wKEVWmgxQEDtTA4WN4ZL6xNJGv/gBROcmV4TyhPwKimPwRzrNb4QmLfZEi8jLqMlb2+Gjw/WI1T1Uu2wNePWKr/Itpm17yUMo+qCuexD9IN/ur8x62RFlleBDCdbQIDAQAB"'
+ttl: 300
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: google._domainkey.jskw.ca.
+rrdatas:
+- '"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCb22JZIAJeJ1v0ooozteH7U8J+0HtjENKW9vpVpLtvg6siSowN4UInP78VRjm401xZ/m3wPOFcZj9W2Dkx/IGvnca2Ej76S4gVbeQHbmZWLOTDlKsCXTwnV1oIbyelo9/6MQ4+e+udhdFM7WOKZfYqpHrMRU8PXSY7CpyONPgKqwIDAQAB"'
+ttl: 3600
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: default._domainkey.cent.jskw.ca.
+rrdatas:
+- '"v=DKIM1; k=rsa; s=email; " "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/qkhgqwFHlskVyxmRjhNpcNr/Xuk0i4VfRCpdxelPPz8fEW2C6LKZ1cH4MaRUph9lrsV2c4hJdOAoASamKXfqf6mx293V8Isha2cvDyRJdtfosxjth1E59WTBehAtFBiGReA3xcSUj99CNqyMqY8TopRjYzlKV9VAj4pA15MWiQIDAQAB"'
+ttl: 300
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: home.jskw.ca.
+rrdatas:
+- 727b06cc0809.sn.mynetname.net.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: noctifer.jskw.ca.
+rrdatas:
+- 198.55.126.41
+ttl: 300
+type: A
