@@ -1,0 +1,57 @@
+---
+kind: dns#resourceRecordSet
+name: jsteel.ca.
+rrdatas:
+- 149.56.64.48
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: jsteel.ca.
+rrdatas:
+- 5 gmr-smtp-in.l.google.com.
+- 10 alt1.gmr-smtp-in.l.google.com.
+- 20 alt2.gmr-smtp-in.l.google.com.
+- 30 alt3.gmr-smtp-in.l.google.com.
+- 40 alt4.gmr-smtp-in.l.google.com.
+ttl: 3600
+type: MX
+---
+kind: dns#resourceRecordSet
+name: jsteel.ca.
+rrdatas:
+- ns-cloud-a1.googledomains.com.
+- ns-cloud-a2.googledomains.com.
+- ns-cloud-a3.googledomains.com.
+- ns-cloud-a4.googledomains.com.
+ttl: 21600
+type: NS
+---
+kind: dns#resourceRecordSet
+name: jsteel.ca.
+rrdatas:
+- ns-cloud-a1.googledomains.com. cloud-dns-hostmaster.google.com. 42 21600 3600 259200
+  300
+ttl: 21600
+type: SOA
+---
+kind: dns#resourceRecordSet
+name: jsteel.ca.
+rrdatas:
+- '"keybase-site-verification=HnRDn7PcnR-v71GSDKnLQcc-_cOqn6QeMGQ3_Rh6lgQ"'
+ttl: 300
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: '*.jsteel.ca.'
+rrdatas:
+- jsteel.ca.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: home.jsteel.ca.
+rrdatas:
+- 727b06cc0809.sn.mynetname.net.
+ttl: 300
+type: CNAME
