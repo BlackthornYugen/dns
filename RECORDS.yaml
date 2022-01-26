@@ -72,6 +72,27 @@ ttl: 300
 type: TXT
 ---
 kind: dns#resourceRecordSet
+name: fm1._domainkey.jskw.ca.
+rrdatas:
+- fm1.jskw.ca.dkim.fmhosted.com.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: fm2._domainkey.jskw.ca.
+rrdatas:
+- fm2.jskw.ca.dkim.fmhosted.com.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: fm3._domainkey.jskw.ca.
+rrdatas:
+- fm3.jskw.ca.dkim.fmhosted.com.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
 name: google._domainkey.jskw.ca.
 rrdatas:
 - '"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCb22JZIAJeJ1v0ooozteH7U8J+0HtjENKW9vpVpLtvg6siSowN4UInP78VRjm401xZ/m3wPOFcZj9W2Dkx/IGvnca2Ej76S4gVbeQHbmZWLOTDlKsCXTwnV1oIbyelo9/6MQ4+e+udhdFM7WOKZfYqpHrMRU8PXSY7CpyONPgKqwIDAQAB"'
