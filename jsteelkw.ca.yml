@@ -47,6 +47,27 @@ ttl: 300
 type: CNAME
 ---
 kind: dns#resourceRecordSet
+name: fm1._domainkey.jsteelkw.ca.
+rrdatas:
+- fm1.jsteelkw.ca.dkim.fmhosted.com.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: fm2._domainkey.jsteelkw.ca.
+rrdatas:
+- fm2.jsteelkw.ca.dkim.fmhosted.com.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: fm3._domainkey.jsteelkw.ca.
+rrdatas:
+- fm3.jsteelkw.ca.dkim.fmhosted.com.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
 name: home.jsteelkw.ca.
 rrdatas:
 - 727b06cc0809.sn.mynetname.net.
