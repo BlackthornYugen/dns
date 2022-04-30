@@ -132,3 +132,10 @@ rrdatas:
 - 727b06cc0809.sn.mynetname.net.
 ttl: 300
 type: CNAME
+---
+kind: dns#resourceRecordSet
+name: poker.jskw.dev.
+rrdatas:
+- poker.arrakis.jskw.dev.
+ttl: 300
+type: CNAME
