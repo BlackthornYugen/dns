@@ -92,6 +92,13 @@ ttl: 300
 type: TXT
 ---
 kind: dns#resourceRecordSet
+name: '*.arrakis.jskw.dev.'
+rrdatas:
+- chani.arrakis.jskw.dev.
+ttl: 60
+type: CNAME
+---
+kind: dns#resourceRecordSet
 name: chani.arrakis.jskw.dev.
 rrdatas:
 - 144.217.207.192

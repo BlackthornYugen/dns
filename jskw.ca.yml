@@ -100,6 +100,13 @@ ttl: 3600
 type: TXT
 ---
 kind: dns#resourceRecordSet
+name: '*.arrakis.jskw.ca.'
+rrdatas:
+- 144.217.207.192
+ttl: 60
+type: A
+---
+kind: dns#resourceRecordSet
 name: default._domainkey.cent.jskw.ca.
 rrdatas:
 - '"v=DKIM1; k=rsa; s=email; " "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/qkhgqwFHlskVyxmRjhNpcNr/Xuk0i4VfRCpdxelPPz8fEW2C6LKZ1cH4MaRUph9lrsV2c4hJdOAoASamKXfqf6mx293V8Isha2cvDyRJdtfosxjth1E59WTBehAtFBiGReA3xcSUj99CNqyMqY8TopRjYzlKV9VAj4pA15MWiQIDAQAB"'
