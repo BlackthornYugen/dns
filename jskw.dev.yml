@@ -35,7 +35,7 @@ type: NS
 kind: dns#resourceRecordSet
 name: jskw.dev.
 rrdatas:
-- ns-cloud-a1.googledomains.com. cloud-dns-hostmaster.google.com. 192 21600 3600 259200
+- ns-cloud-a1.googledomains.com. cloud-dns-hostmaster.google.com. 196 21600 3600 259200
   300
 ttl: 21600
 type: SOA
@@ -132,6 +132,13 @@ rrdatas:
 - 727b06cc0809.sn.mynetname.net.
 ttl: 300
 type: CNAME
+---
+kind: dns#resourceRecordSet
+name: ip.jskw.dev.
+rrdatas:
+- 144.217.207.192
+ttl: 60
+type: A
 ---
 kind: dns#resourceRecordSet
 name: poker.jskw.dev.
