@@ -2,7 +2,7 @@
 kind: dns#resourceRecordSet
 name: jsteelkw.ca.
 rrdatas:
-- 149.56.64.48
+- 144.217.207.192
 ttl: 60
 type: A
 ---
