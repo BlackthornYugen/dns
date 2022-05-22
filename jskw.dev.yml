@@ -2,7 +2,7 @@
 kind: dns#resourceRecordSet
 name: jskw.dev.
 rrdatas:
-- 144.217.207.192
+- 149.56.64.48
 ttl: 300
 type: A
 ---
@@ -52,7 +52,7 @@ type: TXT
 kind: dns#resourceRecordSet
 name: '*.jskw.dev.'
 rrdatas:
-- jskw.dev.
+- alpha.centos.jskw.dev.
 ttl: 60
 type: CNAME
 ---
