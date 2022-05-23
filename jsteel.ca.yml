@@ -2,7 +2,7 @@
 kind: dns#resourceRecordSet
 name: jsteel.ca.
 rrdatas:
-- 144.217.207.192
+- 149.56.64.48
 ttl: 300
 type: A
 ---
