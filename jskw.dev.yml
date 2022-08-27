@@ -134,13 +134,6 @@ ttl: 300
 type: CNAME
 ---
 kind: dns#resourceRecordSet
-name: ip.jskw.dev.
-rrdatas:
-- 144.217.207.192
-ttl: 60
-type: A
----
-kind: dns#resourceRecordSet
 name: poker.jskw.dev.
 rrdatas:
 - poker.arrakis.jskw.dev.
