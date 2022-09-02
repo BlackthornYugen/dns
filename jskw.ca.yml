@@ -126,10 +126,3 @@ rrdatas:
 - 144.217.207.192
 ttl: 60
 type: A
----
-kind: dns#resourceRecordSet
-name: noctifer.jskw.ca.
-rrdatas:
-- 198.55.126.41
-ttl: 300
-type: A
