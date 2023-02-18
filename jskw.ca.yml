@@ -57,6 +57,13 @@ ttl: 60
 type: A
 ---
 kind: dns#resourceRecordSet
+name: 'wireguard.jskw.ca.'
+rrdatas:
+- 192.0.203.44
+ttl: 60
+type: A
+---
+kind: dns#resourceRecordSet
 name: _dmarc.jskw.ca.
 rrdatas:
 - '"v=DMARC1; p=quarantine; rua=mailto:dmarc-reports@jskw.dev; adkim=r; aspf=s; pct=100;
