@@ -92,6 +92,13 @@ ttl: 300
 type: TXT
 ---
 kind: dns#resourceRecordSet
+name: tower.jskw.dev.
+rrdatas:
+- 192.168.86.35
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
 name: '*.cerberus.jskw.dev.'
 rrdatas:
 - cerberus.jskw.dev.
